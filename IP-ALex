@@ -1,0 +1,469 @@
+Nmap scan report for 181.191.225.168
+Host is up (0.014s latency).
+Not shown: 27 filtered tcp ports (no-response)
+PORT     STATE  SERVICE   VERSION
+81/tcp   closed hosts2-ns
+465/tcp  closed smtps
+6001/tcp closed X11:1
+
+Nmap scan report for 45.189.234.69
+Host is up (0.16s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   closed   ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   closed   smtp
+53/tcp   closed   domain
+80/tcp   closed   http
+81/tcp   closed   hosts2-ns
+110/tcp  closed   pop3
+111/tcp  closed   rpcbind
+113/tcp  closed   ident
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  closed   imap
+199/tcp  closed   smux
+443/tcp  closed   https
+445/tcp  filtered microsoft-ds
+465/tcp  closed   smtps
+548/tcp  closed   afp
+587/tcp  closed   submission
+993/tcp  closed   imaps
+995/tcp  closed   pop3s
+1025/tcp closed   NFS-or-IIS
+1720/tcp closed   h323q931
+1723/tcp filtered pptp
+3306/tcp closed   mysql
+3389/tcp closed   ms-wbt-server
+5900/tcp closed   vnc
+6001/tcp closed   X11:1
+8080/tcp closed   http-proxy
+8888/tcp closed   sun-answerbook
+
+Nmap scan report for 190-199-195-157.dyn.dsl.cantv.net (190.199.195.157)
+Host is up (0.023s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   filtered ftp
+22/tcp   closed   ssh
+23/tcp   filtered telnet
+25/tcp   closed   smtp
+53/tcp   closed   domain
+80/tcp   filtered http
+81/tcp   closed   hosts2-ns
+110/tcp  closed   pop3
+111/tcp  closed   rpcbind
+113/tcp  closed   ident
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+199/tcp  closed   smux
+443/tcp  open     https?
+|_http-vuln-cve2014-3704: ERROR: Script execution failed (use -d to debug)
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+|_http-aspnet-debug: ERROR: Script execution failed (use -d to debug)
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| ssl-cert-intaddr: 
+|   Subject commonName: 
+|_    192.168.1.1
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+445/tcp  filtered microsoft-ds
+465/tcp  filtered smtps
+548/tcp  filtered afp
+587/tcp  closed   submission
+993/tcp  closed   imaps
+995/tcp  closed   pop3s
+1025/tcp filtered NFS-or-IIS
+1720/tcp filtered h323q931
+1723/tcp filtered pptp
+3306/tcp closed   mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp closed   vnc
+6001/tcp filtered X11:1
+8080/tcp closed   http-proxy
+8888/tcp closed   sun-answerbook
+
+Nmap scan report for 181.233.160.19
+Host is up (0.012s latency).
+All 30 scanned ports on 181.233.160.19 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 181.191.225.205
+Host is up (0.0097s latency).
+Not shown: 29 filtered tcp ports (no-response)
+PORT   STATE  SERVICE   VERSION
+81/tcp closed hosts2-ns
+
+Nmap scan report for 166.27.41.38.static.mds-telecom.net (38.41.27.166)
+Host is up (0.021s latency).
+All 30 scanned ports on 166.27.41.38.static.mds-telecom.net (38.41.27.166) are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186-91-48-72.genericrev.cantv.net (186.91.48.72)
+Host is up (0.030s latency).
+All 30 scanned ports on 186-91-48-72.genericrev.cantv.net (186.91.48.72) are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186.96.70.194
+Host is up (0.17s latency).
+Not shown: 29 filtered tcp ports (no-response)
+PORT    STATE  SERVICE VERSION
+443/tcp closed https
+
+Nmap scan report for host-190-6-42-192.NET-UNO.NET (190.6.42.192)
+Host is up (0.022s latency).
+All 30 scanned ports on host-190-6-42-192.NET-UNO.NET (190.6.42.192) are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 143.255.84.147
+Host is up (0.015s latency).
+All 30 scanned ports on 143.255.84.147 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186.14.205.173
+Host is up (0.20s latency).
+All 30 scanned ports on 186.14.205.173 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 190-79-201-115.dyn.dsl.cantv.net (190.79.201.115)
+Host is up (0.33s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   filtered ftp
+22/tcp   closed   ssh
+23/tcp   filtered telnet
+25/tcp   closed   smtp
+53/tcp   closed   domain
+80/tcp   filtered http
+81/tcp   closed   hosts2-ns
+110/tcp  closed   pop3
+111/tcp  closed   rpcbind
+113/tcp  closed   ident
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  closed   imap
+199/tcp  closed   smux
+443/tcp  open     https?
+|_http-vuln-cve2014-3704: ERROR: Script execution failed (use -d to debug)
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-aspnet-debug: ERROR: Script execution failed (use -d to debug)
+445/tcp  filtered microsoft-ds
+465/tcp  closed   smtps
+548/tcp  closed   afp
+587/tcp  closed   submission
+993/tcp  closed   imaps
+995/tcp  closed   pop3s
+1025/tcp closed   NFS-or-IIS
+1720/tcp closed   h323q931
+1723/tcp closed   pptp
+3306/tcp closed   mysql
+3389/tcp closed   ms-wbt-server
+5900/tcp closed   vnc
+6001/tcp closed   X11:1
+8080/tcp closed   http-proxy
+8888/tcp closed   sun-answerbook
+
+Nmap scan report for host-group3-59-dynamic.networkspeedvzla.com (45.184.250.59)
+Host is up (0.17s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   closed   ftp
+22/tcp   open     tcpwrapped
+23/tcp   open     tcpwrapped
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   closed   http
+81/tcp   closed   hosts2-ns
+110/tcp  closed   pop3
+111/tcp  closed   rpcbind
+113/tcp  closed   ident
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  closed   imap
+199/tcp  closed   smux
+443/tcp  open     ssl/https
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|   /blog/: Blog
+|   /weblog/: Blog
+|   /weblogs/: Blog
+|   /wordpress/: Blog
+|_  /wiki/: Wiki
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+445/tcp  filtered microsoft-ds
+465/tcp  closed   smtps
+548/tcp  closed   afp
+587/tcp  closed   submission
+993/tcp  closed   imaps
+995/tcp  closed   pop3s
+1025/tcp closed   NFS-or-IIS
+1720/tcp closed   h323q931
+1723/tcp open     pptp           MikroTik (Firmware: 1)
+3306/tcp closed   mysql
+3389/tcp closed   ms-wbt-server
+5900/tcp closed   vnc
+6001/tcp closed   X11:1
+8080/tcp filtered http-proxy
+8888/tcp closed   sun-answerbook
+Service Info: Host: NSP-RTR-CMASIVOS
+
+Nmap scan report for 190.142.169.7
+Host is up (0.19s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   closed   ftp
+22/tcp   closed   ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   closed   domain
+80/tcp   closed   http
+81/tcp   closed   hosts2-ns
+110/tcp  closed   pop3
+111/tcp  closed   rpcbind
+113/tcp  closed   ident
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  closed   imap
+199/tcp  closed   smux
+443/tcp  closed   https
+445/tcp  filtered microsoft-ds
+465/tcp  closed   smtps
+548/tcp  closed   afp
+587/tcp  closed   submission
+993/tcp  closed   imaps
+995/tcp  closed   pop3s
+1025/tcp closed   NFS-or-IIS
+1720/tcp closed   h323q931
+1723/tcp closed   pptp
+3306/tcp closed   mysql
+3389/tcp closed   ms-wbt-server
+5900/tcp closed   vnc
+6001/tcp closed   X11:1
+8080/tcp closed   http-proxy
+8888/tcp closed   sun-answerbook
+
+Nmap scan report for 186.167.206.205
+Host is up (0.014s latency).
+All 30 scanned ports on 186.167.206.205 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186.167.206.171
+Host is up (0.010s latency).
+All 30 scanned ports on 186.167.206.171 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 190-38-184-176.dyn.dsl.cantv.net (190.38.184.176)
+Host is up (0.022s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   closed   smtp
+53/tcp   closed   domain
+80/tcp   closed   http
+81/tcp   closed   hosts2-ns
+110/tcp  closed   pop3
+111/tcp  filtered rpcbind
+113/tcp  closed   ident
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+199/tcp  filtered smux
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+465/tcp  filtered smtps
+548/tcp  filtered afp
+587/tcp  filtered submission
+993/tcp  filtered imaps
+995/tcp  closed   pop3s
+1025/tcp filtered NFS-or-IIS
+1720/tcp filtered h323q931
+1723/tcp filtered pptp
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5900/tcp filtered vnc
+6001/tcp filtered X11:1
+8080/tcp closed   http-proxy
+8888/tcp filtered sun-answerbook
+
+Nmap scan report for 186.167.201.102
+Host is up (0.016s latency).
+All 30 scanned ports on 186.167.201.102 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 181.233.91.70
+Host is up (0.16s latency).
+All 30 scanned ports on 181.233.91.70 are in ignored states.
+Not shown: 30 closed tcp ports (reset)
+
+Nmap scan report for 186.167.204.33
+Host is up (0.032s latency).
+All 30 scanned ports on 186.167.204.33 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 190-203-21-233.dyn.dsl.cantv.net (190.203.21.233)
+Host is up (0.017s latency).
+All 30 scanned ports on 190-203-21-233.dyn.dsl.cantv.net (190.203.21.233) are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186.167.206.160
+Host is up (0.017s latency).
+All 30 scanned ports on 186.167.206.160 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 190-37-239-79.dyn.dsl.cantv.net (190.37.239.79)
+Host is up (0.011s latency).
+All 30 scanned ports on 190-37-239-79.dyn.dsl.cantv.net (190.37.239.79) are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 190.120.253.136
+Host is up (0.016s latency).
+Not shown: 29 filtered tcp ports (no-response)
+PORT   STATE  SERVICE   VERSION
+81/tcp closed hosts2-ns
+
+Nmap scan report for 186-93-91-97.genericrev.cantv.net (186.93.91.97)
+Host is up (0.016s latency).
+All 30 scanned ports on 186-93-91-97.genericrev.cantv.net (186.93.91.97) are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186.167.201.199
+Host is up (0.020s latency).
+All 30 scanned ports on 186.167.201.199 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 200.8.19.154
+Host is up (0.16s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   closed   ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+53/tcp   closed   domain
+80/tcp   closed   http
+81/tcp   closed   hosts2-ns
+110/tcp  closed   pop3
+111/tcp  closed   rpcbind
+113/tcp  closed   ident
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  closed   imap
+199/tcp  closed   smux
+443/tcp  closed   https
+445/tcp  filtered microsoft-ds
+465/tcp  closed   smtps
+548/tcp  closed   afp
+587/tcp  closed   submission
+993/tcp  closed   imaps
+995/tcp  closed   pop3s
+1025/tcp closed   NFS-or-IIS
+1720/tcp closed   h323q931
+1723/tcp filtered pptp
+3306/tcp closed   mysql
+3389/tcp closed   ms-wbt-server
+5900/tcp closed   vnc
+6001/tcp closed   X11:1
+8080/tcp closed   http-proxy
+8888/tcp closed   sun-answerbook
+
+Nmap scan report for 200.8.121.34
+Host is up (0.17s latency).
+
+PORT     STATE    SERVICE        VERSION
+21/tcp   closed   ftp
+22/tcp   closed   ssh
+23/tcp   closed   telnet
+25/tcp   filtered smtp
+53/tcp   open     domain         (generic dns response: NOTIMP)
+80/tcp   closed   http
+81/tcp   closed   hosts2-ns
+110/tcp  closed   pop3
+111/tcp  closed   rpcbind
+113/tcp  closed   ident
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  closed   imap
+199/tcp  closed   smux
+443/tcp  closed   https
+445/tcp  filtered microsoft-ds
+465/tcp  closed   smtps
+548/tcp  closed   afp
+587/tcp  closed   submission
+993/tcp  closed   imaps
+995/tcp  closed   pop3s
+1025/tcp closed   NFS-or-IIS
+1720/tcp closed   h323q931
+1723/tcp open     pptp?
+|_pptp-version: ERROR: Script execution failed (use -d to debug)
+3306/tcp closed   mysql
+3389/tcp closed   ms-wbt-server
+5900/tcp closed   vnc
+6001/tcp filtered X11:1
+8080/tcp closed   http-proxy
+8888/tcp closed   sun-answerbook
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.92%I=7%D=5/10%Time=645C1DC8%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,E,"\0\x0c\0\x06\x81\x84\0\0\0\0\0\0\0\0");
+
+Nmap scan report for 190-206-53-92.dyn.dsl.cantv.net (190.206.53.92)
+Host is up (0.24s latency).
+All 30 scanned ports on 190-206-53-92.dyn.dsl.cantv.net (190.206.53.92) are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 38.45.37.135
+Host is up (0.023s latency).
+All 30 scanned ports on 38.45.37.135 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 200.82.192.102
+Host is up (0.19s latency).
+All 30 scanned ports on 200.82.192.102 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 201-242-222-134.genericrev.cantv.net (201.242.222.134)
+Host is up (0.016s latency).
+All 30 scanned ports on 201-242-222-134.genericrev.cantv.net (201.242.222.134) are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186.167.200.40
+Host is up (0.019s latency).
+All 30 scanned ports on 186.167.200.40 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186.167.203.140
+Host is up (0.0082s latency).
+All 30 scanned ports on 186.167.203.140 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186.167.203.239
+Host is up (0.020s latency).
+All 30 scanned ports on 186.167.203.239 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 181.208.137.38
+Host is up (0.19s latency).
+Not shown: 29 filtered tcp ports (no-response)
+PORT     STATE SERVICE VERSION
+1723/tcp open  pptp    DrayTek (Firmware: 1)
+Service Info: Host: Vigor
+
+Nmap scan report for 186.167.202.155
+Host is up (0.0081s latency).
+All 30 scanned ports on 186.167.202.155 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Nmap scan report for 186.167.204.26
+Host is up (0.016s latency).
+All 30 scanned ports on 186.167.204.26 are in ignored states.
+Not shown: 30 filtered tcp ports (no-response)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 41 IP addresses (38 hosts up) scanned in 860.33 seconds
